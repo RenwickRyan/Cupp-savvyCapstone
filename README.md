@@ -5,7 +5,7 @@
 (working title)
 
 
-I working on a SPA that is meant for coffee exploration. I want to connect people both virtually and locally for the purpose of having a coffee cupping, a formal way to taste coffee analytically. see link below
+I am working on a SPA that is meant for coffee exploration. I want to connect people both virtually and locally for the purpose of having a coffee cupping, a formal way to taste coffee analytically. see link below
 
 https://en.wikipedia.org/wiki/Coffee_cupping
 
