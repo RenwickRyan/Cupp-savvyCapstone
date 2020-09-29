@@ -1,8 +1,7 @@
 
 # Capstone Project:
 
-## Slurps Up: cultivating a community for critical coffee consumption
-(working title)
+## Cupp: cultivating a community for critical coffee consumption
 
 
 I am working on a SPA that is meant for coffee exploration. I want to connect people both virtually and locally for the purpose of having a coffee cupping, a formal way to taste coffee analytically. see link below
