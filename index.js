@@ -6,6 +6,7 @@ import * as state from "./store";
 import { Header, Nav, Main, Footer } from "./components";
 // add menu toggle to bars icon in nav bar
 const router = new Navigo(window.location.origin);
+
 function render(st = state.Home) {
   document.querySelector("#root").innerHTML = `
   ${Header(st)}
@@ -16,9 +17,11 @@ function render(st = state.Home) {
   router.updatePageLinks();
 }
 render(state.Home);
-router
-  .on({
-    "/": () => render(state.Home),
-    ":page": params => render(state[capitalize(params.page)])
-  })
-  .resolve();
+
+router.on({
+  "/": () => render(state.Home),
+  ":page": params => {
+    let page = capitalize(params.page);
+    render(state[page]);
+  }
+});

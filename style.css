@@ -1,5 +1,5 @@
 * {
-  font-family: Futura;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
 }
 
@@ -11,7 +11,6 @@ h1.header {
   margin: auto;
   padding: 20px 20px;
   z-index: 10;
-
 }
 
 body {
@@ -26,7 +25,7 @@ ul.topnav {
 }
 .topnav {
   overflow: hidden;
-  background-color:  rgba(255, 185, 213);
+  background-color: rgba(255, 185, 213);
   text-align: right;
 }
 .topnav a {
@@ -52,78 +51,3 @@ nav a.active {
 footer {
   text-align: center;
 }
-
-/* links action */
-a {
-  text-decoration: none;
-}
-
-/* everything bel0w this i took from example */
-
-@media (max-width: 549px){
-  .hidden--mobile {
-  display: none !important;
-  }
-
-nav {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-nav > i {
-  padding: 1rem;
-  font-size: 2em;
-}
-
-nav > ul {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 0 0;
-  }
-
-nav > ul > li {
-  padding: .5rem;
-  list-style-type: none;
-  }
-
-@media (min-width: 550px){
-  #jumbotron {
-  height: 60vh;
-  }
-
-nav > ul > li {
-  display: inline-block;
-  text-decoration: none;
-  border: 1px solid;
-  padding: .5rem .5rem;
-  border-radius: 25px;
-  }
-
-nav > .fa-bars {
-  display: none;
-  }
-
-#jumbotron {
-  background: url(https://images.unsplash.com/photo-1528334713982-2d1fe11a157a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80) center center no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 90vh;
-  }
-
-#jumbotron > h2 {
-  color: white;
-  text-align: center;
-  }
-
-#jumbotron > a {
-  text-decoration: none;
-  background-color: white;
-  font-size: 1.5em;
-  padding: 1.5rem;
-  border-radius: 10px;
-  }
