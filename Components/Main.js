@@ -1,4 +1,4 @@
-import * as views from "./views";
+import * as views from "./Views";
 
 export default st => `
-${views[st.view](st)}`;
+${views[st.views](st)}`;
