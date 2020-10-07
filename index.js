@@ -1,4 +1,4 @@
-import Navigo from "Navigo";
+import Navigo from "navigo";
 import { capitalize } from "lodash";
 // importing all as a Module object
 import * as state from "./Store";
