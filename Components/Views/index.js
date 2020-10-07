@@ -1,4 +1,4 @@
-export { default as about } from "./About";
-export { default as howto } from "./HowTo";
-export { default as setup } from "./setup";
-export { default as home } from "./Mail";
+export { default as About } from "./About";
+export { default as HowTo } from "./HowTo";
+export { default as Setup } from "./Setup";
+export { default as Home } from "./Home";

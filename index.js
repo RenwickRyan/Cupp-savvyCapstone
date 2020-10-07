@@ -1,12 +1,11 @@
-// // importing all as a Module object
-// import * as components from "./Components";
-// // importing all by name
-import { Header, Nav, Main, Footer } from "./Components";
+import Navigo from "navigo";
+import { capitalize } from "lodash";
+// importing all as a Module object
+import * as state from "./store";
+// importing all by name
+import { Header, Nav, Main, Footer } from "./components";
 // add menu toggle to bars icon in nav bar
-document.querySelector(".fa-bars").addEventListener("click", () => {
-  document.querySelector("nav > ul").classList.toggle("hidden--mobile");
-});
-
+const router = new Navigo(window.location.origin);
 function render(st = state.Home) {
   document.querySelector("#root").innerHTML = `
   ${Header(st)}
@@ -14,3 +13,12 @@ function render(st = state.Home) {
   ${Main(st)}
   ${Footer()}
 `;
+  router.updatePageLinks();
+}
+render(state.Home);
+router
+  .on({
+    "/": () => render(state.Home),
+    ":page": params => render(state[capitalize(params.page)])
+  })
+  .resolve();
