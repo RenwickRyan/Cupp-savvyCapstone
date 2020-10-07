@@ -1,4 +1,4 @@
-export default () => `
+export default st => `
 <header>
-  <h1 class="header">Cupp</h1>
+<h1>${st.Header}</h1>
 </header>`;
