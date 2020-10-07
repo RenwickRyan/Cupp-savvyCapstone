@@ -1,2 +1,2 @@
 export default () => `
-<h2>about?</h2>`;
+<h2>about</h2>`;
