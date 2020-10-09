@@ -1,4 +1,4 @@
 export default {
-  Header: "HowTo",
+  header: "How To",
   view: "HowTo"
 };

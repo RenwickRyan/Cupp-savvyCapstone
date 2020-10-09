@@ -18,34 +18,24 @@ body {
   margin: 20px;
 }
 /* nav bar stuff */
-ul.topnav {
-  padding: 40px;
-  list-style-type: none;
-  text-align: right;
-}
-.topnav {
-  overflow: hidden;
-  background-color: rgba(255, 185, 213);
-  text-align: right;
-}
-.topnav a {
-  float: left;
+@media (min-width: 550px) {
+  nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 0;
+  }
 
-  display: block;
-  color: #000000;
-  text-align: right;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 20px;
-}
-.topnav a:hover {
-  background-color: rgba(255, 237, 98, 0.776);
-  color: black;
-}
-nav a.active {
-  background-color: rgb(142, 199, 175);
-  color: black;
-}
+  nav > ul > li {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid;
+    padding: .5rem .5rem;
+    border-radius: 25px;
+  }
+
+  nav > .fa-bars {
+    display: none;
+  }
 
 /* footer stuff */
 footer {

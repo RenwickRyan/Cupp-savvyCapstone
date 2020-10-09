@@ -1,10 +1,15 @@
-export default () => `
-<nav class="active">
-  <div class="topnav">
-    <a href="index.html">Home</a>
-    <a href="About.html">About</a>
-    <a href="HowTo.html">How To</a>
-    <a href="SetUp.html">Set Up</a>
-  </div>
+export default links => `
+<nav>
+  <i class="fas fa-bars"></i>
+  <ul class="hidden--mobile nav-links">
+  ${links.reduce(
+    (html, link) =>
+      html +
+      `<li><a href="/${link.title !== "Home" ? link.title : ""}" title="${
+        link.title
+      }" data-navigo>${link.text}</a></li>`,
+    ``
+  )}
+  </ul>
 </nav>
 `;

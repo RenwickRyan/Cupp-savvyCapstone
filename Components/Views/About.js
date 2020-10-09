@@ -1,2 +1,3 @@
-export default () => `
-<h2>about</h2>`;
+export default st => `
+<h2>${st.header}</h2>
+`;

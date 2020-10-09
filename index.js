@@ -1,10 +1,9 @@
 import Navigo from "navigo";
 import { capitalize } from "lodash";
-// importing all as a Module object
+import axios from "axios";
 import * as state from "./Store";
-// importing all by name
 import { Header, Nav, Main, Footer } from "./Components";
-// add menu toggle to bars icon in nav bar
+
 const router = new Navigo(window.location.origin);
 
 function render(st = state.Home) {
@@ -27,3 +26,12 @@ router
     }
   })
   .resolve();
+
+/*my github token access*/
+// axios
+//   .get(`https://api.github.com/users/${RenwickRyan}/repos`, {
+//     headers: {
+//       Authorization: `token ${/*tokengoeshere*/}`
+//     }
+//   })
+//   .then(response => console.log(response.data));

@@ -1,3 +1,3 @@
-export default () => `
-<h2>set up</h2>
+export default st => `
+<h2>${st.header}</h2>
 `;
