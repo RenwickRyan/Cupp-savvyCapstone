@@ -1,3 +1,5 @@
 export default st => `
-<h2>${st.header}</h2>
+<div id="splash">
+  <a imgsrc="">
+</div>
 `;

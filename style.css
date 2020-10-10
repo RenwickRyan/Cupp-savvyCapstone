@@ -41,3 +41,9 @@ body {
 footer {
   text-align: center;
 }
+
+/* Set Up page styles */
+h2.gettingStarted {
+  text-align: center;
+
+}
