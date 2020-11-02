@@ -3,7 +3,7 @@
   font-weight: lighter;
 }
 
-h1.header {
+/* h1.header {
   width: 100%;
   text-align: left;
   font-size: 50px;
@@ -11,7 +11,7 @@ h1.header {
   margin: auto;
   padding: 20px 20px;
   z-index: 10;
-}
+} */
 
 body {
   background-color: rgba(255, 185, 213);
@@ -26,17 +26,17 @@ body {
   }
 }
 
-  nav > ul > li {
-    display: inline-block;
-    text-decoration: none;
-    border: 1px solid;
-    padding: .5rem .5rem;
-    border-radius: 25px;
-  }
+nav > ul > li {
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid;
+  padding: .5rem .5rem;
+  border-radius: 25px;
+}
 
-  nav > .fa-bars {
-    display: none;
-  }
+nav > .fa-bars {
+  display: none;
+}
 
 /* footer stuff */
 footer {
@@ -47,4 +47,203 @@ footer {
 h2.gettingStarted {
   text-align: center;
 
+}
+
+/* everything updated 10.31.20 */
+
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* home page things */
+
+
+
+/* about page stuffs */
+.about {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  padding: 20px 20px 40px 20px;
+  margin-bottom: 40px;
+}
+
+#about {
+  background-color:rgb(160, 225, 250);
+  color: white;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+#hello {
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 100px;
+  font-weight: bolder;
+  text-transform: lowercase;
+  text-align: left;
+  margin: 50px 30px 10px;
+}
+
+#hello:hover {
+  color: rgb(172, 255, 209);
+  transform: skew(-20deg);
+  transition-duration: 5s;
+}
+
+/* number stuffs & code button stuffs */
+
+.numbers {
+  margin: none;
+  padding: 100px 100px 300px 100px;
+  border: none;
+  background-color: rgb(160, 225, 250);
+  font-size: 1rem;
+  text-align: center;
+}
+
+.btn {
+  background-color:  rgba(227, 197, 255);
+  color: rgb(252, 245, 144);
+  font-size: 30px;
+  text-decoration: none;
+  padding: 30px 30px;
+  margin: 10px 100px;
+  outline: none;
+  border: none;
+  border-radius: 15px 50px;
+  position: sticky;
+  box-shadow: 2px 2px 2px black;
+  transition-duration: 1s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  border-radius: 50px 15px;
+  transition-duration: 1s;
+  color: rgba(227, 197, 255);
+  background-color: rgb(252, 245, 144);
+}
+
+.btn:active {
+  border-radius: 50px;
+  transform: translateY(4px);
+  transition-duration: 0.2s;
+}
+
+#numbers {
+  margin: 10px 10px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  font: 20px black bold;
+}
+
+p.num {
+  color: rgba(227, 197, 255);
+  background-color: rgb(252, 245, 144);
+  font-family: Helvetica, sans-serif;
+  font-size: 80px;
+  display: inline-flex;
+  border-radius: 13px;
+  padding: 5px 25px;
+  margin: 10px 100px;
+}
+
+/* getting started stuffs */
+
+.start {
+  background-color:rgb(160, 225, 250);
+  font-size: 1.5rem;
+  margin: none;
+  padding: 100px 100px 300px 100px;
+  border: none;
+}
+
+.start2 {
+
+}
+
+.materials {
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 1rem;
+}
+
+#steps {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#setupdetail {
+  font-size: 1rem;
+  text-align: center;
+}
+
+#step1imgs {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+/* step 1 */
+.stepone {
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+}
+#step1imgs {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+/* step 2 */
+.steptwo {
+  width: 500px;
+  height: auto;
+}
+#step2imgs {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+/* step 3 */
+.stepthree {
+  width: 500px;
+  height: auto;
+}
+#step3imgs {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+/* step 4 */
+.stepfour {
+  width: 500px;
+  height: auto;
+}
+#step4imgs {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+/* step 5 */
+.stepfive {
+  width: 500px;
+  height: auto;
+}
+#step5imgs {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+/* step 6 */
+.stepsix {
+  width: 500px;
+  height: auto;
+}
+#step6imgs {
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }

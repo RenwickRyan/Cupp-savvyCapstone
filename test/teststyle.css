@@ -13,69 +13,205 @@
   z-index: 10;
 } */
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 body {
   background-color: rgb(247, 180, 207);
   margin: 20px;
 }
 
-/* About Page Style */
+/* home page things */
+
+#home {
+
+}
+
+/* about page stuffs */
+.about {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  padding: 20px 20px 40px 20px;
+  margin-bottom: 40px;
+}
+
+#about {
+  background-color:rgb(160, 225, 250);
+  color: white;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
 #hello {
-  font-family: 'Roboto Mono', monospace;
-  font-size: 80px;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 100px;
+  font-weight: bolder;
   text-transform: lowercase;
   text-align: left;
-  /* border: 1px black solid; */
   margin: 50px 30px 10px;
 }
 
 #hello:hover {
-  color: rgb(74, 131, 116);
+  color: rgb(172, 255, 209);
   transform: skew(-20deg);
-  transition-duration: 2s;
+  transition-duration: 5s;
 }
 
-#about {
-  font-family: Helvetica, sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  text-align: left;
-  /* border: 1px black solid; */
-  padding: 10px 10px;
-  margin: 10px 100px 10px 30px;
-  /* flex-flow: row; */
-}
+/* number stuffs & code button stuffs */
 
-#about:hover {
-  font-size: 30px;
-}
-
-.navbar {
-  position: fixed;
-  padding: 20px;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  background-color: rgb(249, 157, 124);
+.numbers {
+  margin: none;
+  padding: 100px 100px 300px 100px;
+  border: none;
+  background-color: rgb(160, 225, 250);
+  font-size: 1rem;
+  text-align: center;
 }
 
 .btn {
-  background-color: rgb(170, 125, 213);
-  padding: 10px 20px;
+  background-color:  rgba(227, 197, 255);
+  color: rgb(252, 245, 144);
+  font-size: 30px;
   text-decoration: none;
-  font-size: x-large;
-  color: rgb(172, 255, 209);
+  padding: 30px 30px;
+  margin: 10px 100px;
   outline: none;
   border: none;
-  border-radius: 13px;
+  border-radius: 15px 50px;
   position: sticky;
   box-shadow: 2px 2px 2px black;
+  transition-duration: 1s;
 }
 
 .btn:hover {
-  transform: translateY(-5px);
-  transition-duration: 0.2s;
   cursor: pointer;
-  background-color: rgb(172, 255, 209);
-  color: rgb(170, 125, 213);
-  box-shadow: black;
+  border-radius: 50px 15px;
+  transition-duration: 1s;
+  color: rgba(227, 197, 255);
+  background-color: rgb(252, 245, 144);
+}
+
+.btn:active {
+  border-radius: 50px;
+  transform: translateY(4px);
+  transition-duration: 0.2s;
+}
+
+#numbers {
+  margin: 10px 10px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  font: 20px black bold;
+}
+
+p.num {
+  color: rgba(227, 197, 255);
+  background-color: rgb(252, 245, 144);
+  font-family: Helvetica, sans-serif;
+  font-size: 80px;
+  display: inline-flex;
+  border-radius: 13px;
+  padding: 5px 25px;
+  margin: 10px 100px;
+}
+
+/* getting started stuffs */
+
+.start {
+  background-color:rgb(160, 225, 250);
+  font-size: 1.5rem;
+  margin: none;
+  padding: 100px 100px 300px 100px;
+  border: none;
+}
+
+.start2 {
+
+}
+
+.materials {
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 1rem;
+}
+
+#steps {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#setupdetail {
+  font-size: 1rem;
+  text-align: center;
+}
+
+#step1imgs {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+/* step 1 */
+.stepone {
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+}
+#step1imgs {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+/* step 2 */
+.steptwo {
+  width: 500px;
+  height: auto;
+}
+#step2imgs {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+/* step 3 */
+.stepthree {
+  width: 500px;
+  height: auto;
+}
+#step3imgs {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+/* step 4 */
+.stepfour {
+  width: 500px;
+  height: auto;
+}
+#step4imgs {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+/* step 5 */
+.stepfive {
+  width: 500px;
+  height: auto;
+}
+#step5imgs {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+/* step 6 */
+.stepsix {
+  width: 500px;
+  height: auto;
+}
+#step6imgs {
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
