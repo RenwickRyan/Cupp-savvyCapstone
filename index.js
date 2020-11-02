@@ -4,7 +4,7 @@ import axios from "axios";
 // importing all as a Module object
 import * as state from "./store";
 // importing all by name
-import { Header, Nav, Main, Footer } from "./components";
+import { Header, Nav, Main, Footer } from "./Components";
 // add menu toggle to bars icon in nav bar
 import "./env";
 
