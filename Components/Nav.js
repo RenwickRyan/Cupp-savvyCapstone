@@ -1,15 +1,19 @@
+import links from "../Store/Links";
+
 export default links => `
-<nav>
+<nav class="hidden">
   <i class="fas fa-bars"></i>
   <ul class="hidden--mobile nav-links">
   ${links.reduce(
     (html, link) =>
       html +
-      `<li><a href="/${link.title !== "Home" ? link.title : ""}" title="${
-        link.title
-      }" data-navigo>${link.text}</a></li>`,
+      `<li><a class="nav-link" href="/${
+        link.title !== "Home" ? link.title : ""
+      }" title="${link.title}" data-navigo>${link.text.toUpperCase()}</a></li>`,
     ``
   )}
   </ul>
 </nav>
+
+
 `;

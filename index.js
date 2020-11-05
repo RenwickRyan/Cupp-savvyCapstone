@@ -8,29 +8,53 @@ import { Header, Nav, Main, Footer } from "./Components";
 // add menu toggle to bars icon in nav bar
 import "./env";
 
-// get data from an API endpoint
-axios
-  .get("https://jsonplaceholder.typicode.com/posts")
-  // handle the response from the API
-  .then(response => {
-    // for each post in the response Array,
-    response.data.forEach(post => {
-      // add it to state.Blog.posts
-      state.Blog.posts.push(post);
-    });
-    const params = router.lastRouteResolved().params;
-    if (params) {
-      render(state[params.page]);
-    }
-  });
+const options = {
+  method: "GET",
+  url: "https://rapidapi.p.rapidapi.com/random/joke",
+  headers: {
+    "x-rapidapi-key": "bf4570d2edmsh7efb9e05f9c934bp13b4c9jsn0da7a73bd35c",
+    "x-rapidapi-host": "dad-jokes.p.rapidapi.com"
+  }
+};
 
 axios
-  .get(`https://api.github.com/users/RenwickRyan/repos`, {
-    headers: {
-      Authorization: `token 871eba93e02dfc55166e9757a11633c4b985f3b9`
-    }
+  .request(options)
+  .then(function(response) {
+    console.log(response.data);
   })
-  .then(response => console.log(response.data));
+  .catch(function(error) {
+    console.error(error);
+  });
+axios
+  .get("https://rapidapi.p.rapidapi.com/random/joke")
+  .then(response => {
+    state.Home.dadjokeOTD = response;
+  })
+  .catch(err => console.log(err));
+
+// // get data from an API endpoint
+// axios
+//   .get("https://jsonplaceholder.typicode.com/posts")
+//   // handle the response from the API
+//   .then(response => {
+//     // for each post in the response Array,
+//     response.data.forEach(post => {
+//       // add it to state.Blog.posts
+//       state.Blog.posts.push(post);
+//     });
+//     const params = router.lastRouteResolved().params;
+//     if (params) {
+//       render(state[params.page]);
+//     }
+//   });
+
+// axios
+//   .get(`https://api.github.com/users/RenwickRyan/repos`, {
+//     headers: {
+//       Authorization: `token 871eba93e02dfc55166e9757a11633c4b985f3b9`
+//     }
+//   })
+//   .then(response => console.log(response.data));
 
 const router = new Navigo(window.location.origin);
 
@@ -43,8 +67,8 @@ function render(st = state.Home) {
 `;
   router.updatePageLinks();
 
-  addPicOnFormSubmit(st);
-  addNavEventListeners();
+  // addPicOnFormSubmit(st);
+  // addNavEventListeners();
 }
 
 render(state.Home);
@@ -56,34 +80,34 @@ router
   })
   .resolve();
 
-function addPicOnFormSubmit(st) {
-  if (st.view === "Form") {
-    document.querySelector("form").addEventListener("submit", event => {
-      event.preventDefault();
-      // convert HTML elements to Array
-      let inputList = Array.from(event.target.elements);
-      // remove submit button from list
-      inputList.pop();
-      // construct new picture object
-      let newPic = inputList.reduce((pictureObject, input) => {
-        pictureObject[input.name] = input.value;
-        return pictureObject;
-      }, {});
-      // add new picture to state.Gallery.pictures
-      state.Gallery.pictures.push(newPic);
-      render(state.Gallery);
-    });
-  }
-}
+// function addPicOnFormSubmit(st) {
+//   if (st.view === "Form") {
+//     document.querySelector("form").addEventListener("submit", event => {
+//       event.preventDefault();
+//       // convert HTML elements to Array
+//       let inputList = Array.from(event.target.elements);
+//       // remove submit button from list
+//       inputList.pop();
+//       // construct new picture object
+//       let newPic = inputList.reduce((pictureObject, input) => {
+//         pictureObject[input.name] = input.value;
+//         return pictureObject;
+//       }, {});
+//       // add new picture to state.Gallery.pictures
+//       state.Gallery.pictures.push(newPic);
+//       render(state.Gallery);
+//     });
+//   }
+// }
 
-function addNavEventListeners() {
-  // add menu toggle to bars icon in nav bar
-  document
-    .querySelector(".fa-bars")
-    .addEventListener("click", () =>
-      document.querySelector("nav > ul").classList.toggle("hidden--mobile")
-    );
-}
+// function addNavEventListeners() {
+//   // add menu toggle to bars icon in nav bar
+//   document
+//     .querySelector(".fa-bars")
+//     .addEventListener("click", () =>
+//       document.querySelector("nav > ul").classList.toggle("hidden--mobile")
+//     );
+// }
 
 /* number generator */
 function getRandomNumber1(max, min) {
@@ -113,6 +137,9 @@ function getRandomNumber8(max, min) {
 function getRandomNumber9(max, min) {
   return Math.floor(Math.random() * (999 - 100) + 100);
 }
+function getRandomNumber10(max, min) {
+  return Math.floor(Math.random() * (999 - 100) + 100);
+}
 
 document.getElementById("num1").innerHTML = getRandomNumber1();
 document.getElementById("num2").innerHTML = getRandomNumber2();
@@ -123,3 +150,4 @@ document.getElementById("num6").innerHTML = getRandomNumber6();
 document.getElementById("num7").innerHTML = getRandomNumber7();
 document.getElementById("num8").innerHTML = getRandomNumber8();
 document.getElementById("num9").innerHTML = getRandomNumber9();
+document.getElementById("num10").innerHTML = getRandomNumber10();

@@ -1,6 +1,6 @@
 export default st => `
 <main>
-    <div class="start">
+    <div class="start" id="start">
       <h2 class="start2">Materials Needed:</h2>
         <ul class="materials">
           <p>• Pen & Paper (for note taking)</p>
@@ -53,5 +53,6 @@ export default st => `
       <h2 class="start2">Accessing Results:</h2>
       <h2 class="start2">Cleaning up:</h2> -->
     </div>
-  </main>
+    <a class="backtotop" href="#start">back to the top</a>
+    </main>
 `;
