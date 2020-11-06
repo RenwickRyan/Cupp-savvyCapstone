@@ -133,41 +133,38 @@ document.getElementById("num10").innerHTML = getRandomNumber10();
 
 /* apple live photo API */
 
-const player = LivePhotosKit.Player(document.getElementById("live-photo"));
-player.photoSrc =
-  "https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/breakingcrust-detail.jpeg?raw=true";
-player.videoSrc =
-  "https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/IMG_1850.mov?raw=true";
+// const player = LivePhotosKit.Player(document.getElementById("live-photo"));
+// player.photoSrc =
+//   "https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/breakingcrust-detail.jpeg?raw=true";
+// player.videoSrc =
+//   "https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/IMG_1850.mov?raw=true";
 
-player.addEventListener("canplay", evt => console.log("player ready", evt));
-player.addEventListener("error", evt => console.log("player load error", evt));
-player.addEventListener("ended", evt =>
-  console.log("player finished playing through", evt)
-);
-// Use the playback controls.
-player.playbackStyle = LivePhotosKit.PlaybackStyle.HINT;
-player.playbackStyle = LivePhotosKit.PlaybackStyle.FULL;
-player.play();
-player.pause();
-player.toggle();
-player.stop();
-// Seek the animation to one quarter through.
-player.currentTime = 0.25 * player.duration;
-// Seek the animation to 0.1 seconds into the Live Photo.
-player.currentTime = 0.1;
+// player.addEventListener("canplay", evt => console.log("player ready", evt));
+// player.addEventListener("error", evt => console.log("player load error", evt));
+// player.addEventListener("ended", evt =>
+//   console.log("player finished playing through", evt)
+// );
 
-player.addEventListener("error", ev => {
-  if (typeof ev.detail.errorCode === "number") {
-    switch (ev.detail.errorCode) {
-      case LivePhotosKit.Errors.IMAGE_FAILED_TO_LOAD:
-        // Do something
-        break;
-      case LivePhotosKit.Errors.VIDEO_FAILED_TO_LOAD:
-        // Do something
-        break;
-    }
-  } else {
-    // Extract error.
-    console.error(ev.detail.error);
-  }
-});
+// player.playbackStyle = LivePhotosKit.PlaybackStyle.HINT;
+// player.playbackStyle = LivePhotosKit.PlaybackStyle.FULL;
+// player.play();
+// player.pause();
+// player.toggle();
+// player.stop();
+
+// player.currentTime = 0.25 * player.duration;
+
+// player.currentTime = 0.1;
+
+// player.addEventListener("error", ev => {
+//   if (typeof ev.detail.errorCode === "number") {
+//     switch (ev.detail.errorCode) {
+//       case LivePhotosKit.Errors.IMAGE_FAILED_TO_LOAD:
+//         break;
+//       case LivePhotosKit.Errors.VIDEO_FAILED_TO_LOAD:
+//         break;
+//     }
+//   } else {
+//     console.error(ev.detail.error);
+//   }
+// });

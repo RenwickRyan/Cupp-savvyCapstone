@@ -1,6 +1,6 @@
 export default st => `
-<div id="home-page">
+<div id="homepage">
 <p class="home-text">Hello.</p>
-<img class="home-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQW1uqzLPHES6oPwIxNI4UnTrTNx3KJN3Pzkg&usqp=CAU">
+<img class="home-img" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/homepage5.jpeg?raw=true">
 </div>
 `;
