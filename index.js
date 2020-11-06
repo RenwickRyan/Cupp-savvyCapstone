@@ -3,34 +3,13 @@ import { capitalize } from "lodash";
 import axios from "axios";
 // importing all as a Module object
 import * as state from "./Store";
+// import * as LivePhotosKit from "livephotoskit";
 // importing all by name
 import { Header, Nav, Main, Footer } from "./Components";
 // add menu toggle to bars icon in nav bar
 import "./env";
 
-const options = {
-  method: "GET",
-  url: "https://rapidapi.p.rapidapi.com/random/joke",
-  headers: {
-    "x-rapidapi-key": "bf4570d2edmsh7efb9e05f9c934bp13b4c9jsn0da7a73bd35c",
-    "x-rapidapi-host": "dad-jokes.p.rapidapi.com"
-  }
-};
-
-axios
-  .request(options)
-  .then(function(response) {
-    console.log(response.data);
-  })
-  .catch(function(error) {
-    console.error(error);
-  });
-axios
-  .get("https://rapidapi.p.rapidapi.com/random/joke")
-  .then(response => {
-    state.Home.dadjokeOTD = response;
-  })
-  .catch(err => console.log(err));
+/* API STUFF */
 
 // // get data from an API endpoint
 // axios
@@ -151,3 +130,44 @@ document.getElementById("num7").innerHTML = getRandomNumber7();
 document.getElementById("num8").innerHTML = getRandomNumber8();
 document.getElementById("num9").innerHTML = getRandomNumber9();
 document.getElementById("num10").innerHTML = getRandomNumber10();
+
+/* apple live photo API */
+
+const player = LivePhotosKit.Player(document.getElementById("live-photo"));
+player.photoSrc =
+  "https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/breakingcrust-detail.jpeg?raw=true";
+player.videoSrc =
+  "https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/IMG_1850.mov?raw=true";
+
+player.addEventListener("canplay", evt => console.log("player ready", evt));
+player.addEventListener("error", evt => console.log("player load error", evt));
+player.addEventListener("ended", evt =>
+  console.log("player finished playing through", evt)
+);
+// Use the playback controls.
+player.playbackStyle = LivePhotosKit.PlaybackStyle.HINT;
+player.playbackStyle = LivePhotosKit.PlaybackStyle.FULL;
+player.play();
+player.pause();
+player.toggle();
+player.stop();
+// Seek the animation to one quarter through.
+player.currentTime = 0.25 * player.duration;
+// Seek the animation to 0.1 seconds into the Live Photo.
+player.currentTime = 0.1;
+
+player.addEventListener("error", ev => {
+  if (typeof ev.detail.errorCode === "number") {
+    switch (ev.detail.errorCode) {
+      case LivePhotosKit.Errors.IMAGE_FAILED_TO_LOAD:
+        // Do something
+        break;
+      case LivePhotosKit.Errors.VIDEO_FAILED_TO_LOAD:
+        // Do something
+        break;
+    }
+  } else {
+    // Extract error.
+    console.error(ev.detail.error);
+  }
+});

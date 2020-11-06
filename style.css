@@ -26,10 +26,12 @@ header {
   padding: 30px 0px 0px 20px;
   margin-top: 10px;
   text-decoration: none;
+  text-shadow: 2px 2px rgb(238, 183, 183);
   transition-duration: 1s;
 }
 .header-text:hover {
-  color: rgb(238, 183, 183)
+  color: rgb(238, 183, 183);
+  text-shadow: 2px 2px rgb(148, 184, 174);
 }
 
 nav {
@@ -43,7 +45,8 @@ nav {
 }
 .nav-link {
   color: rgb(148, 184, 174);
-  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
   font-weight: normal;
   text-decoration: none;
   padding: 0px 20px;
@@ -76,7 +79,7 @@ footer {
   color: rgb(148, 184, 174);
   padding: 20px 40px;
   font-size: 30px;
-  font-family: Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   text-align: center;
   display: flex;
@@ -91,18 +94,18 @@ footer {
 
 /* home page things */
 
-#dad-jokes {
+#home-page{
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
 .home-text {
   color: rgb(238, 183, 183);
   font-size: 100px;
   font-family: 'Pacifico', cursive;
-  padding: 10px;
-  position: absolute;
-  bottom: -275px;
-  right: 100px;
   transition-duration: 1s;
+  align-content: flex-end;
 }
 .home-text:hover {
   color: rgb(148, 184, 174);
@@ -110,11 +113,13 @@ footer {
 }
 
 .home-img {
+  width: 80%;
+  height: auto;
 }
 
 /* about page stuffs */
 .about {
-  font-family: Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   text-align: center;
   padding: 20px 20px 40px 20px;
@@ -127,6 +132,12 @@ footer {
   font-size: 2.5rem;
   margin-left: 100px;
   margin-right: 100px;
+  transition-duration: 1s;
+}
+
+#about:hover {
+  color: rgb(148, 184, 174);
+  transition-duration: 1s;
 }
 
 #hello {
@@ -141,6 +152,7 @@ footer {
 }
 
 #hello:hover {
+  color: rgb(148, 184, 174);
   transform: skew(-20deg);
   transition-duration: 5s;
 }
@@ -208,13 +220,16 @@ p.num {
 
 .start {
   color: rgb(238, 183, 183);
-  font-family: Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  padding: 20px 20px 40px 20px;
-  margin-bottom: 40px;
-  font-size: 60px;
+  font-size: 40px;
   margin-left: 50px;
   margin-right: 50px;
+  margin-bottom: 40px;
+  transition-duration: 2s;
+}
+
+.start:hover {
 }
 
 .start2 {
@@ -223,87 +238,56 @@ margin-top: none;
 
 .materials {
   flex-direction: column;
-  font-size: 30px;
-  font-weight: bolder;
-}
-
-#steps {
-  font-size: 40px;
-  text-align: center;
-  font-weight: bolder;
-}
-
-#setupdetail {
-  font-size: 30px;
-  text-align: center;
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
   font-weight: bold;
 }
 
-#step1imgs {
-  display: flex;
-  justify-content: center;
-  align-content: center;
+#num-link {
+  color: rgb(148, 184, 174);
+  padding: 2px;
+  border-radius: 15px;
+  text-decoration: none;
 }
+
+#steps {
+  font-size: 35px;
+  text-align: center;
+}
+
+#setupdetail {
+  font-size: 25px;
+  text-align: center;
+}
+
 /* step 1 */
 .stepone {
-  width: 200px;
-  height: 200px;
-  padding: 5px;
+  width: 100%;
+  height: auto;
+  margin: 5px;
+  box-shadow: 4px 4px 4px  rgb(238, 183, 183);
 }
+
 #step1imgs {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-/* step 2 */
-.steptwo {
-  width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: auto;
+  }
+/*  others steps */
+.steps {
+  width: 100%;
   height: auto;
+  margin: 5px;
+  box-shadow: 4px 4px 4px  rgb(238, 183, 183);
 }
-#step2imgs {
+#step-imgs {
   display: flex;
   justify-content: center;
   align-content: center;
-}
-/* step 3 */
-.stepthree {
-  width: 500px;
-  height: auto;
-}
-#step3imgs {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-/* step 4 */
-.stepfour {
-  width: 500px;
-  height: auto;
-}
-#step4imgs {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-/* step 5 */
-.stepfive {
-  width: 500px;
-  height: auto;
-}
-#step5imgs {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-/* step 6 */
-.stepsix {
-  width: 500px;
-  height: auto;
-}
-#step6imgs {
-  display: flex;
-  justify-content: center;
-  align-content: center;
+  padding: 10px;
 }
 
 .backtotop {
@@ -318,6 +302,30 @@ margin-top: none;
 
 .backtotop:hover {
   color: rgb(148, 184, 174);
+}
+
+/* Resources Stuffs */
+.tasting-wheel {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+#tasting-wheel {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px rgb(148, 184, 174);
+}
+.cupping-form {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+#cupping-form {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px rgb(148, 184, 174);
 }
 
 /* mobile ready - @media_vvv */
