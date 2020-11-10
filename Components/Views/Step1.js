@@ -10,7 +10,7 @@ export default st => `
             <img class="stepone" alt="timer" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/timer.jpeg?raw=true" style="width:300px;height:300px;">
           </div>
           <p id="setupdetail">You can reference the list on previous page</p>
-          </div>
+</div>
 <div class="step-btn">
 <a class="step-link" href="/Gettingstarted" title="Gettingstarted" data-navigo="">Get Started</a>
 <a class="step-link" href="/Step2" title="Step2" data-navigo="">Step 2</a>

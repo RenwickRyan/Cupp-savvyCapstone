@@ -3,7 +3,10 @@ export default st => `
 <div class="home-page">
 <img class="home-img" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/homepage5.jpeg?raw=true">
 </div>
+<div class="home-bottom">
+<div class"google-map">
 
+</div>
 <div class="container">
   <form id="contact" action="mailto:cuppcoffeeinfo@gmail.com" method="post" enctype="text/plain">
     <h3>Contact Cupp</h3>
@@ -20,5 +23,6 @@ export default st => `
       <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
     </fieldset>
   </form>
+</div>
 </div>
 `;

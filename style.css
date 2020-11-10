@@ -478,13 +478,19 @@ p.num {
   font-size: 40px;
   margin-left: 50px;
   margin-right: 50px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   transition-duration: 1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
 .start:hover {
 }
-
+.start2 {
+  margin-bottom: 5px;
+}
 .start2:hover {
   color: rgb(148, 184, 174);
   transition-duration: 1s;
@@ -506,7 +512,7 @@ p.num {
   color: rgb(250, 250, 250);
 }
 
-.action-btn{
+.action-btn {
   color: rgb(250, 250, 250);
   background-color: rgb(148, 184, 174);
   font-family: 'Montserrat', sans-serif;
@@ -523,7 +529,7 @@ p.num {
 .step-btn {
   font-family: 'Montserrat', sans-serif;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .step-link {
@@ -589,8 +595,10 @@ p.num {
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  width: 100%;
+  width: 80%;
   height: auto;
+  margin-left: 10%;
+  margin-right: auto;
 }
 /*  others steps */
 .steps {
