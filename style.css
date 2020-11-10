@@ -23,7 +23,7 @@ body::-webkit-scrollbar-thumb {
   background-color: rgb(148, 184, 174)
 }
 
-@media screen and (min-width: 480px){
+@media screen and (min-width: 480px) {
   /* nav & header - below */
   header {
     display: flex;
@@ -70,7 +70,7 @@ body::-webkit-scrollbar-thumb {
     padding: 0px 20px;
     margin: 5px;
   }
-
+}
 /* nav & header - above */
 
 /* footer stuff */
