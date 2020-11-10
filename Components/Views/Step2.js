@@ -2,7 +2,7 @@ export default st => `
 <div class="start" id="start">
 <h3 id="steps">Step 2: Select & weigh out your coffee</h3>
 <div id="step-imgs">
-<img class="steps" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/weighcoffee.jpeg?raw=true" style="width:400px;height:auto;">
+<img class="steps" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/weighcoffee.jpeg?raw=true" style="width:300px;height:300px;">
 </div>
 <p id="setupdetail">Start with recently roasted whole bean coffee. Weigh out 12g into each cup (or bowl) you intend to use <br><br> Using multiple cups will insure you are not tasting only a defect that may have made it in there</p>
 </div>

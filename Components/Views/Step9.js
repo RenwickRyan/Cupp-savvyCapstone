@@ -2,8 +2,8 @@ export default st => `
 <div class="start" id="start">
 <h3 id="steps">Step 9: Using two spoons, remove any remaining <br> coffee grounds or foam floating at the top.</h3>
 <div id="step-imgs">
-<img class="steps" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/skimcrust1.jpeg?raw=true" style="width:400px;height:auto;">
-<img class="steps" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/skimcrust2.jpeg?raw=true" style="width:400px;height:auto;">
+<img class="steps" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/skimcrust1.jpeg?raw=true" style="width:300px;height:300px;">
+<img class="steps" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/skimcrust2.jpeg?raw=true" style="width:300px;height:300px;">
 </div>
 <p id="setupdetail">You can use a extra mug to dispense of those</p>
 </div>
