@@ -240,7 +240,7 @@ footer {
   }
 }
 
-/* */
+/* end mobile ready */
 
 /* home page things */
 
@@ -500,6 +500,47 @@ p.num {
 .materials:hover {
   color: rgb(148, 184, 174);
   transition-duration: 1s;
+}
+
+.action {
+  text-decoration: none;
+  color: rgb(250, 250, 250);
+}
+
+.action-btn{
+  color: rgb(250, 250, 250);
+  background-color: rgb(148, 184, 174);
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.action-btn:hover {
+  background-color: rgb(238, 183, 183);
+}
+
+.step-btn {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.step-link {
+  color: rgb(250, 250, 250);
+  background-color: rgb(238, 183, 183);
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.step-link:hover {
+  color: rgb(250, 250, 250);
+  background-color: rgb(148, 184, 174);
+}
+
+.step-link:active {
+  text-decoration: none;
 }
 
 #num-link {

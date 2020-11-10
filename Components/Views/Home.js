@@ -1,9 +1,6 @@
 export default st => `
+<div id="home-top"></div>
 <div class="home-page">
-<div>
-<h1>Let's Cupp!</h1>
-<button></button>
-</div>
 <img class="home-img" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/homepage5.jpeg?raw=true">
 </div>
 
