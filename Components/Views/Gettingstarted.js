@@ -29,7 +29,7 @@ export default st => `
           <div id="step-imgs">
           <img class="steps" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/weighcoffee.jpeg?raw=true" style="width:400px;height:auto;">
         </div>
-          <p id="setupdetail">Start with recently roasted whole bean coffee. Weigh out 12g into each cup (or bowl) you intend to use <br><br> Using multiple cups will insure you are not tasting only a defect that may have made it into the cups</p>
+          <p id="setupdetail">Start with recently roasted whole bean coffee. Weigh out 12g into each cup (or bowl) you intend to use <br><br> Using multiple cups will insure you are not tasting only a defect that may have made it in there</p>
 
         <h3 id="steps">Step 3: Grind the coffee</h3>
         <div id="step-imgs">
@@ -39,7 +39,7 @@ export default st => `
 
           <h3 id="steps">Step 4: Set up your cupping area</h3>
         <div id="step-imgs">
-          <img class="steps" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/cuppingtable.jpeg?raw=true" style="width:400px;height:auto;">
+          <img class="steps" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/cuppingtable.jpeg?raw=true" style="width:800px;height:auto;">
         </div>
           <p id="setupdetail">Space out the each set of cups with rinsing cup of hot water <br><br> Use the <a href="/Numbers" id="num-link">numbers</a> tab to generate placeholders for your coffee's name <br><br> This will help keep the cupping 'blind' and remove  preconceived <br> notions of what each coffee could/would/should taste like</p>
 
@@ -74,7 +74,7 @@ export default st => `
         </div>
           <p id="setupdetail">You can use a extra mug to dispense of those</p>
 
-          <h3 id="steps">Step 10: Allow the coffee to cool until the 12-15 minute mark, then begin tasting Get a small amount of the coffee in your spoon, then SLURP! <br> <br> Slurping the coffee allows it to spray across your entire palate, <br> <br> letting you taste a wider range of flavors <br><br> * be sure to since your spoon in hot water between cups </h3>
+          <h3 id="steps">Step 10: Allow the coffee to cool until the 12-15 minute mark, then begin tasting Get a small amount of the coffee in your spoon, then SLURP! <br> <br> Slurping the coffee allows it to spray across your entire palate, <br> <br> letting you taste a wider range of flavors <br><br> * be sure to rinse your spoon in hot water between cups </h3>
           <div id="step-imgs">
           <img class="steps" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/coffeeinspoon.jpeg?raw=true" style="width:400px;height:auto;">
           <img class="steps" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/slurpsup.jpeg?raw=true" style="width:400px;height:auto;">
