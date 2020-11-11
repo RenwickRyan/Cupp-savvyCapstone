@@ -7,7 +7,7 @@ export default st => `
 <div class="home-bottom">
 <div class="container">
   <form id="contact" action="https://formspree.io/f/xbjpjapz" method="post">
-    <h3>Contact Cupp</h3>
+    <h3>Contact Cupp.</h3>
     <fieldset>
       <input placeholder="your name" type="text"  name="name" required autofocus>
     </fieldset>
