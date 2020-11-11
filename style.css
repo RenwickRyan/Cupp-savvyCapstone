@@ -73,6 +73,11 @@ body::-webkit-scrollbar-thumb {
 }
 /* nav & header - above */
 
+/* home page stuff */
+.home-page {
+  display: flex;
+  flex: 0 1 100%;
+}
 /* footer stuff */
 footer {
   display: flex;
@@ -299,12 +304,6 @@ footer {
 
 /* end mobile ready */
 
-/* home page things */
-
-.home-page {
-  display: flex;
-  flex: 0 1 100%;
-}
 
 /* .home-text {
   color: rgb(238, 183, 183);
@@ -328,7 +327,7 @@ footer {
 
 .home-bottom {
   display: flex;
-  border: 1px black solid;
+  /* border: 1px black solid; */
 }
 #contact-form {
   border: 1px black solid;
