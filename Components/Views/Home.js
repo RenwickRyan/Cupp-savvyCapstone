@@ -3,24 +3,22 @@ export default st => `
 <div class="home-page">
 <img class="home-img" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/homepage5.jpeg?raw=true">
 </div>
-<div class="home-bottom">
-<div class"google-map">
 
-</div>
+<div class="home-bottom">
 <div class="container">
-  <form id="contact" action="mailto:cuppcoffeeinfo@gmail.com" method="post" enctype="text/plain">
+  <form id="contact" action="https://formspree.io/f/xbjpjapz" method="post">
     <h3>Contact Cupp</h3>
     <fieldset>
-      <input placeholder="Your name" type="text" tabindex="0" required autofocus>
+      <input placeholder="your name" type="text"  name="name" required autofocus>
     </fieldset>
     <fieldset>
-      <input placeholder="Your Email Address" type="email" tabindex="0" required>
+      <input placeholder="your email address" type="email" name="replyto" required>
     </fieldset>
     <fieldset>
-      <textarea placeholder="Type your message here...." tabindex="0" required></textarea>
+      <textarea placeholder="type your message here...." type="text" name="message" required></textarea>
     </fieldset>
     <fieldset>
-      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      <button name="submit" type="submit" id="contact-submit">Submit</button>
     </fieldset>
   </form>
 </div>
