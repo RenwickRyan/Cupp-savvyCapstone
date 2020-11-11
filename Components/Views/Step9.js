@@ -8,7 +8,7 @@ export default st => `
 <p id="setupdetail">You can use a extra mug to dispense of those</p>
 </div>
 <div class="step-btn">
-<a class="step-link" href="/Step8" title="Step8" data-navigo="">Step 8</a>
-<a class="step-link" href="/Step10" title="Step3" data-navigo="">Step 10</a>
+<a class="step-link" href="/Step8" title="Step8" data-navigo="">prev</a>
+<a class="step-link" href="/Step10" title="Step3" data-navigo="">next</a>
 </div>
 `;

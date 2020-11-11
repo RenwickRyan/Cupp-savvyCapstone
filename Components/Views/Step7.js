@@ -7,7 +7,7 @@ export default st => `
   <p id="setupdetail">Take note of any differences or new smells from the dry coffee.</p>
 </div>
 <div class="step-btn">
-<a class="step-link" href="/Step6" title="Step6" data-navigo="">Step 6</a>
-<a class="step-link" href="/Step8" title="Step8" data-navigo="">Step 8</a>
+<a class="step-link" href="/Step6" title="Step6" data-navigo="">prev</a>
+<a class="step-link" href="/Step8" title="Step8" data-navigo="">next</a>
 </div>
 `;

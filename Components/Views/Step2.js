@@ -7,7 +7,7 @@ export default st => `
 <p id="setupdetail">Start with fresh roasted whole bean coffee. <br> Weigh out 12g into each cup (or bowl) you intend to use <br><br> Using multiple cups will insure you are not only tasting <br>  a defect that may have made it into one of your cups</p>
 </div>
 <div class="step-btn">
-<a class="step-link" href="/Step1" title="Step1" data-navigo="">Step 1</a>
-<a class="step-link" href="/Step3" title="Step3" data-navigo="">Step 3</a>
+<a class="step-link" href="/Step1" title="Step1" data-navigo="">prev</a>
+<a class="step-link" href="/Step3" title="Step3" data-navigo="">next</a>
 </div>
 `;

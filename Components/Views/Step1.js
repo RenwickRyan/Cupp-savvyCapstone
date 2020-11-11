@@ -12,7 +12,7 @@ export default st => `
           <p id="setupdetail">You can reference the list on previous page</p>
 </div>
 <div class="step-btn">
-<a class="step-link" href="/Gettingstarted" title="Gettingstarted" data-navigo="">Get Started</a>
-<a class="step-link" href="/Step2" title="Step2" data-navigo="">Step 2</a>
+<a class="step-link" href="/Gettingstarted" title="Gettingstarted" data-navigo="">get started</a>
+<a class="step-link" href="/Step2" title="Step2" data-navigo="">next</a>
 </div>
 `;

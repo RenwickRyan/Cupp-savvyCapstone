@@ -7,7 +7,7 @@ export default st => `
   <p id="setupdetail">Take notes with the numbers as placeholders for the coffee's actually name</p>
 </div>
 <div class="step-btn">
-<a class="step-link" href="/Step4" title="Step4" data-navigo="">Step 4</a>
-<a class="step-link" href="/Step6" title="Step6" data-navigo="">Step 6</a>
+<a class="step-link" href="/Step4" title="Step4" data-navigo="">prev</a>
+<a class="step-link" href="/Step6" title="Step6" data-navigo="">next</a>
 </div>
 `;

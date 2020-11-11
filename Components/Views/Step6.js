@@ -7,7 +7,7 @@ export default st => `
   <p id="setupdetail">You want to use water at a temperature just below boiling. (198°F-208°F)  <br> <br> Be sure to fully saturate the coffee in the bowl and fill near the top</p>
 </div>
 <div class="step-btn">
-<a class="step-link" href="/Step5" title="Step5" data-navigo="">Step 5</a>
-<a class="step-link" href="/Step7" title="Step7" data-navigo="">Step 7</a>
+<a class="step-link" href="/Step5" title="Step5" data-navigo="">prev</a>
+<a class="step-link" href="/Step7" title="Step7" data-navigo="">next</a>
 </div>
 `;

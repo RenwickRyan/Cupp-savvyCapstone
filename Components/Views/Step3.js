@@ -7,7 +7,7 @@ export default st => `
   <p id="setupdetail">You will want to 'purge' about 2-3 grams of each coffee through the grinder to <br>  eliminate the chance of anything left from any previously ground coffee   <br> <br> Repeat this step with each coffee you have  <br>  <br> * The ground coffee should resemble coarse sea salt *</p>
 </div>
 <div class="step-btn">
-<a class="step-link" href="/Step2" title="Step2" data-navigo="">Step 2</a>
-<a class="step-link" href="/Step4" title="Step4" data-navigo="">Step 4</a>
+<a class="step-link" href="/Step2" title="Step2" data-navigo="">prev</a>
+<a class="step-link" href="/Step4" title="Step4" data-navigo="">next</a>
 </div>
 `;
