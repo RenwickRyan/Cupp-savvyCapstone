@@ -5,6 +5,7 @@ export default st => `
 </div>
 
 <div class="home-bottom">
+</div>
 <div class="container">
   <form id="contact" action="https://formspree.io/f/xbjpjapz" method="post">
     <h3>Contact Cupp.</h3>
