@@ -3,7 +3,7 @@ export default st => `
     <div class="start" id="start">
       <h2 class="start2">Materials Needed:</h2>
         <ul class="materials">
-        <a id="material-links" href="http://www.stlartsupply.com/" target="_blank"><li> Pen & Paper (for note taking)</li></a>
+        <a id="material-links" href="http://www.stlartsupply.com/mud-house-coffee" target="_blank"><li> Pen & Paper (for note taking)</li></a>
           <a id="material-links" href="http://www.themudhousestl.com/" target="_blank"><li> Coffee (12-15g of each coffee)</li></a>
           <a id="material-links" href="https://www.espressoparts.com/brew/accessories/scales-timers" target="_blank"><li> Scale</li></a>
           <a id="material-links" href="https://www.espressoparts.com/cafe-supplies/cupping-tools" target="_blank"><li> Grinder (you want to use coffee that has been very recently ground)</li></a>

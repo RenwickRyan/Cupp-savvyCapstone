@@ -1,9 +1,9 @@
 export default st => `
 <div id="home-top"></div>
 <div class="home-page">
-<img class="home-img" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/homepage5.jpeg?raw=true">
+<img class="home-img" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/Roasting2.jpg?raw=true">
 </div>
-
+s
 <div class="home-bottom">
 </div>
 <div class="container">
