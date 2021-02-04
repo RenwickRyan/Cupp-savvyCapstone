@@ -1,4 +1,4 @@
-export default {
-  header: "Step8",
-  view: "Step8"
-};
+// export default {
+//   header: "Step8",
+//   view: "Step8"
+// };

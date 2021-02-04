@@ -1,8 +1,8 @@
 export default [
   { title: "Home", text: "Home" },
-  { title: "About", text: "About" },
+  // { title: "About", text: "About" },
   { title: "Gettingstarted", text: "Getting Started" },
-  { title: "Numbers", text: "Numbers" },
+  // { title: "Numbers", text: "Numbers" },
   { title: "Resources", text: "Resources" },
   { title: "Step1", text: "Step1" },
   { title: "Step2", text: "Step2" },

@@ -1,27 +1,31 @@
 export default st => `
-<div id="home-top"></div>
 <div class="home-page">
-<img class="home-img" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/homepage5.jpeg?raw=true">
+  <div class="home-top">
+  <img class="home-img" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/homepage5.jpeg?raw=true">
 </div>
-
-<div class="home-bottom">
-</div>
-<div class="container">
-  <form id="contact" action="https://formspree.io/f/xbjpjapz" method="post">
-    <h3>Contact Cupp.</h3>
-    <fieldset>
-      <input placeholder="your name" type="text"  name="name" required autofocus>
-    </fieldset>
-    <fieldset>
-      <input placeholder="your email address" type="email" name="replyto" required>
-    </fieldset>
-    <fieldset>
-      <textarea placeholder="type your message here...." type="text" name="message" required></textarea>
-    </fieldset>
-    <fieldset>
-      <button name="submit" type="submit" id="contact-submit">Submit</button>
-    </fieldset>
-  </form>
-</div>
+  <div class="home-container">
+    <div class="home-about">
+      <h1 class="about">About.</h1>
+        <br>
+        <p id="about">Cupp was conceived as a place for curious coffee drinkers to come together virtually. A place where folks can discuss, compare coffee experiences through the unique lense of a coffee cuppings. <br><br> Cupping coffee is a very specific way to experience a roasted coffee in its base form. Each coffee is prepared with the same set of meticulous parameters and standards.<br><br> The goal of this project is to allow folks to engage with one another and provide tools to organize and implement cuppings at home, coffee shops and virtually.<p>
+    </div>
+    <div class="form-container">
+      <form id="contact" action="https://formspree.io/f/xbjpjapz" method="post">
+        <h3>Contact Cupp.</h3>
+          <fieldset id=fieldset">
+            <input placeholder="your name" type="text"  name="name" required autofocus>
+          </fieldset>
+          <fieldset id=fieldset">
+            <input placeholder="your email address" type="email" name="replyto" required>
+          </fieldset>
+          <fieldset id=fieldset">
+            <textarea placeholder="type your message here...." type="text" name="message" required></textarea>
+          </fieldset>
+          <fieldset id=fieldset">
+            <button name="submit" type="submit" >Submit</button>
+          </fieldset>
+      </form>
+    </div>
+  </div>
 </div>
 `;

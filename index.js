@@ -88,6 +88,15 @@ router
 //     );
 // }
 
+/* navbar */
+
+let mainNav = document.getElementById("js-menu");
+let navBarToggle = document.getElementById("js-navbar-toggle");
+
+navBarToggle.addEventListener("click", function() {
+  mainNav.classList.toggle("active");
+});
+
 /* number generator */
 function getRandomNumber1(max, min) {
   return Math.floor(Math.random() * (999 - 100) + 100);
