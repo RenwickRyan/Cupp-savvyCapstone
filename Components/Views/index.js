@@ -1,7 +1,7 @@
-export { default as About } from "./About";
+// export { default as About } from "./About";
 export { default as Gettingstarted } from "./Gettingstarted";
 export { default as Home } from "./Home";
-export { default as Numbers } from "./Numbers";
+// export { default as Numbers } from "./Numbers";
 export { default as Resources } from "./Resources";
 export { default as Step1 } from "./Step1";
 export { default as Step2 } from "./Step2";

@@ -90,12 +90,12 @@ router
 
 /* navbar */
 
-let mainNav = document.getElementById("js-menu");
-let navBarToggle = document.getElementById("js-navbar-toggle");
+// let mainNav = document.getElementById("js-menu");
+// let navBarToggle = document.getElementById("js-navbar-toggle");
 
-navBarToggle.addEventListener("click", function() {
-  mainNav.classList.toggle("active");
-});
+// navBarToggle.addEventListener("click", function() {
+//   mainNav.classList.toggle("active");
+// });
 
 /* number generator */
 function getRandomNumber1(max, min) {
@@ -129,16 +129,16 @@ function getRandomNumber10(max, min) {
   return Math.floor(Math.random() * (999 - 100) + 100);
 }
 
-document.getElementById("num1").innerHTML = getRandomNumber1();
-document.getElementById("num2").innerHTML = getRandomNumber2();
-document.getElementById("num3").innerHTML = getRandomNumber3();
-document.getElementById("num4").innerHTML = getRandomNumber4();
-document.getElementById("num5").innerHTML = getRandomNumber5();
-document.getElementById("num6").innerHTML = getRandomNumber6();
-document.getElementById("num7").innerHTML = getRandomNumber7();
-document.getElementById("num8").innerHTML = getRandomNumber8();
-document.getElementById("num9").innerHTML = getRandomNumber9();
-document.getElementById("num10").innerHTML = getRandomNumber10();
+document.getElementById("num-1").innerHTML = getRandomNumber1();
+document.getElementById("num-2").innerHTML = getRandomNumber2();
+document.getElementById("num-3").innerHTML = getRandomNumber3();
+document.getElementById("num-4").innerHTML = getRandomNumber4();
+document.getElementById("num-5").innerHTML = getRandomNumber5();
+document.getElementById("num-6").innerHTML = getRandomNumber6();
+document.getElementById("num-7").innerHTML = getRandomNumber7();
+document.getElementById("num-8").innerHTML = getRandomNumber8();
+document.getElementById("num-9").innerHTML = getRandomNumber9();
+document.getElementById("num-10").innerHTML = getRandomNumber10();
 
 /* apple live photo API */
 
