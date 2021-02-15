@@ -98,7 +98,7 @@ body::-webkit-scrollbar-thumb {
     flex: 1;
     max-width: 40%;
     font-family: Helvetica, sans-serif, Arial;
-    padding: 40px 20px;
+    padding: 20px 20px;
   }
   .about {
     font-size: 2.5rem;
@@ -385,5 +385,32 @@ body::-webkit-scrollbar-thumb {
     color: rgb(148, 184, 174);
     text-decoration: none;
   }
+}
 
+/* Smart Phones: portrait and landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .home-img {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .home-about {
+    text-align: center;
+  }
+  .form-container {
+    max-width: 100%;
+    margin: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  #fieldset {
+    border: none;
+  }
+  #contact-cupp {
+    text-align: center;
+  }
+  #contact textarea {
+    resize: none;
+  }
 }
