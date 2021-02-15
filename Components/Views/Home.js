@@ -20,7 +20,7 @@ export default st => `
           <fieldset id="fieldset">
             <textarea placeholder="type your message here...." type="text" name="message" required></textarea>
           </fieldset>
-          <fieldset id="fieldset">
+          <fieldset id="contact-btn" id="fieldset">
             <button name="submit" type="submit" >Submit</button>
           </fieldset>
       </form>

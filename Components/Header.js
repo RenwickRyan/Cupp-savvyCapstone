@@ -2,10 +2,10 @@ export default () => `
 <header>
 <a class="logo" href="/Home">Cupp.</a>
 <nav>
-  <ul class="navbar">
+  <i class="fa fa-bars"></i>
+  <ul class="navbar" id="hidden--mobile nav-links">
     <li><a class="nav-link" href="/Home" title="Home" data-navigo="">HOME</a></li>
     <li><a class="nav-link" href="/Gettingstarted" title="Gettingstarted" data-navigo="">GET STARTED</a></li>
-
     <li><a class="nav-link" href="/Resources" title="Resources" data-navigo="">RESOURCES</a></li>
   </ul>
 </nav>

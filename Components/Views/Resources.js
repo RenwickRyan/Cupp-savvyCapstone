@@ -2,7 +2,7 @@ export default () => `
 <main>
     <div class="numbers">
       <button class="btn" onclick="location.reload()">click here</button>
-        <h3>Below is some numbers you can use as placeholders for the names of the coffee you are use to keep your cupping 'blind'.</h3>
+        <h3 id="num-text">Below is some numbers you can use as placeholders for the names of the coffee you are use to keep your cupping 'blind'.</h3>
         <div class="num-display">
           <p class="num" id="num-1"></p>
           <p class="num" id="num-2"></p>
