@@ -76,8 +76,7 @@ body::-webkit-scrollbar-thumb {
     color: rgb(238, 183, 183);
   }
 
-/* home page */
-
+  /* home page */
   .home-page {
     display: flex;
     flex-direction: column;
@@ -93,6 +92,7 @@ body::-webkit-scrollbar-thumb {
     justify-content: space-evenly;
     padding: 10px;
   }
+
 
   .home-about {
     flex: 1;
@@ -137,11 +137,9 @@ body::-webkit-scrollbar-thumb {
     padding: 0;
     width: 100%;
   }
-
   fieldset {
     border: medium none !important;
   }
-
   #contact input[type="text"],
   #contact input[type="email"],
   #contact textarea {
@@ -151,7 +149,6 @@ body::-webkit-scrollbar-thumb {
     background: #FFF;
     padding: 20px;
   }
-
   #contact input[type="text"]:hover,
   #contact input[type="email"]:hover,
   #contact textarea:hover {
@@ -160,12 +157,9 @@ body::-webkit-scrollbar-thumb {
     transition: border-color 0.3s ease-in-out;
     border: 1px solid #aaa;
   }
-
   #contact textarea {
     resize: none;
   }
-
-
   #contact button[type="submit"] {
     cursor: pointer;
     width: 50%;
@@ -175,7 +169,6 @@ body::-webkit-scrollbar-thumb {
     padding: 10px;
     font-size: 1rem;
   }
-
   #contact button[type="submit"]:hover {
     background: rgb(148, 184, 174);
     -webkit-transition: background 0.3s ease-in-out;
@@ -206,8 +199,7 @@ body::-webkit-scrollbar-thumb {
   }
 
 
-/* getting started */
-
+  /* getting started */
   .start {
     padding: 100px 0px 0px 20px;
     font-family: Helvetica, sans-serif, Arial;
@@ -269,7 +261,6 @@ body::-webkit-scrollbar-thumb {
   }
 
   /* resourses */
-
   .numbers {
     /* margin: none; */
     padding: 200px 200px 500px 200px;
@@ -350,7 +341,6 @@ body::-webkit-scrollbar-thumb {
 
 
   /* footer */
-
   footer {
     display: flex;
     flex-direction: column;
@@ -389,12 +379,18 @@ body::-webkit-scrollbar-thumb {
 
 /* Smart Phones: portrait and landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+  /* home page */
   .home-img {
     max-width: 100%;
     overflow: hidden;
   }
   .home-about {
     text-align: center;
+  }
+  #about {
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
   .form-container {
     max-width: 100%;
@@ -412,5 +408,41 @@ body::-webkit-scrollbar-thumb {
   }
   #contact textarea {
     resize: none;
+  }
+
+  /* footer */
+  footer {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    color: rgb(148, 184, 174);
+    font-family: 'Montserrat', sans-serif, serif;
+    font-size: 1rem;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-text {
+    text-align: center;
+    text-decoration: none;
+  }
+  .icons {
+    text-align: center;
+  }
+  #icons {
+    font-size: 50px;
+    padding: 10px;
+    color: rgb(238, 183, 183)
+  }
+  #icons:hover {
+    color: rgb(148, 184, 174);
+  }
+  #foot-link {
+    color: rgb(148, 184, 174);
+    text-decoration: none;
+  }
+  #foot-link:active {
+    color: rgb(148, 184, 174);
+    text-decoration: none;
   }
 }
