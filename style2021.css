@@ -645,7 +645,7 @@ body::-webkit-scrollbar-thumb {
   }
   #tasting-wheel {
     max-width: 100%;
-    height: auto
+    height: auto;
     overflow: hidden;
     box-shadow: 2px 2px 2px rgb(148, 184, 174);
   }
