@@ -576,18 +576,22 @@ body::-webkit-scrollbar-thumb {
     justify-content: center;
     align-content: center;
     max-width: 300px;
+    height: auto;
+    overflow: none;
     padding: 5px;
   }
   #step-img {
-    overflow: none;
     max-width: 300px;
-    max-height: auto;
+    height: auto;
+    overflow: none;
     padding: 5px;
   }
   #back2top {
     color: rgb(238, 183, 183);
     text-decoration: none;
     font-weight: 600;
+    display: flex;
+    justify-content: center;
   }
 
   /* resourses */
