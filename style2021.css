@@ -570,19 +570,19 @@ body::-webkit-scrollbar-thumb {
     justify-content: center;
     align-content: center;
   }
-  #step1imgs {
+  #step1-imgs {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     max-width: 300px;
-    height: auto;
+    max-height: 300px;
     overflow: none;
     padding: 5px;
   }
   #step-img {
     max-width: 300px;
-    height: auto;
+    max-height: 300px;
     overflow: none;
     padding: 5px;
   }
