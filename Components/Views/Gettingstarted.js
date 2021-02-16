@@ -77,8 +77,8 @@ export default st => `
               <div class="steps">
                 <h3 id="steps">Step 9: Using two spoons, remove any remaining <br> coffee grounds or foam floating at the top.</h3>
                     <div class="step-img-div">
-                      <img id="step-img" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/sml-skim1.jpeg?raw=true">
-                      <img id="step-img" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/sml-skim2.jpeg?raw=true">
+                      <img id="step910-img" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/sml-skim1.jpeg?raw=true">
+                      <img id="step910-img" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/sml-skim2.jpeg?raw=true">
                     </div>
                     <p id="setupdetail">You can use a extra mug to dispense of those</p>
               </div>
@@ -86,8 +86,8 @@ export default st => `
                 <h3 id="steps">Step 10: Allow the coffee to cool until the 12-15 minute mark, then begin tasting. <br> Get a small amount of the coffee in your spoon, then SLURP!</h3>
                   <p id="setupdetail"> * be sure to rinse your spoon in hot water between cups *</p>
                       <div class="step-img-div">
-                      <img id="step-img" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/sml-slurp1.jpeg?raw=true">
-                      <img id="step-img" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/sml-slurp2.jpeg?raw=true">
+                      <img id="step910-img" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/sml-slurp1.jpeg?raw=true">
+                      <img id="step910-img" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/sml-slurp2.jpeg?raw=true">
                     </div>
                     <p id="setupdetail">Slurping the coffee allows it to spray across your entire palate, letting you taste a wider range of flavors <br><br>The coffee's flavor will evolve as the coffee cools <br> Take note of those changes in coffee<br><br> Allow for several passes over 15 minutes or so </p>
               </div>

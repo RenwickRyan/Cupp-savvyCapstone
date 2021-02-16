@@ -565,25 +565,29 @@ body::-webkit-scrollbar-thumb {
   }
 
   .step-img-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    text-align: center;
   }
-  #step1-imgs {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+  #step1imgs {
+    text-align: center;
+  }
+  #step1-img {
+    max-width: 200px;
+    max-height: 200px;
+    padding: 2.5px;
+  }
+  #step4-img {
     max-width: 300px;
-    max-height: 300px;
-    overflow: none;
+    height: auto;
     padding: 5px;
+  }
+  #step910-img {
+    max-width: 300px;
+    height: auto;
+    padding: 2.5px;
   }
   #step-img {
     max-width: 300px;
-    max-height: 300px;
-    overflow: none;
+    max-height: auto;
     padding: 5px;
   }
   #back2top {
