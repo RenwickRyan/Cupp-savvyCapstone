@@ -97,6 +97,14 @@ router
 //   mainNav.classList.toggle("active");
 // });
 
+/* nav bar toggle */
+const hamburger = document.getElementById("hamburger");
+const navUL = document.getElementById("hidden--mobile");
+
+hamburger.addEventListener("click", () => {
+  navUL.classList.toggle("show");
+});
+
 /* number generator */
 function getRandomNumber1(max, min) {
   return Math.floor(Math.random() * (999 - 100) + 100);
