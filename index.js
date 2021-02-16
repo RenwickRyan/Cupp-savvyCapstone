@@ -59,44 +59,6 @@ router
   })
   .resolve();
 
-// function addPicOnFormSubmit(st) {
-//   if (st.view === "Form") {
-//     document.querySelector("form").addEventListener("submit", event => {
-//       event.preventDefault();
-//       // convert HTML elements to Array
-//       let inputList = Array.from(event.target.elements);
-//       // remove submit button from list
-//       inputList.pop();
-//       // construct new picture object
-//       let newPic = inputList.reduce((pictureObject, input) => {
-//         pictureObject[input.name] = input.value;
-//         return pictureObject;
-//       }, {});
-//       // add new picture to state.Gallery.pictures
-//       state.Gallery.pictures.push(newPic);
-//       render(state.Gallery);
-//     });
-//   }
-// }
-
-// function addNavEventListeners() {
-//   // add menu toggle to bars icon in nav bar
-//   document
-//     .querySelector(".fa-bars")
-//     .addEventListener("click", () =>
-//       document.querySelector("nav > ul").classList.toggle("hidden--mobile")
-//     );
-// }
-
-/* navbar */
-
-// let mainNav = document.getElementById("js-menu");
-// let navBarToggle = document.getElementById("js-navbar-toggle");
-
-// navBarToggle.addEventListener("click", function() {
-//   mainNav.classList.toggle("active");
-// });
-
 /* nav bar toggle */
 const hamburger = document.getElementById("hamburger");
 const navUL = document.getElementById("hidden--mobile");

@@ -44,7 +44,7 @@ export default st => `
                     <div class="step-img-div">
                       <img id="step4-img" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/cuppingtable.jpeg?raw=true">
                     </div>
-                    <p id="setupdetail">Space out the each set of cups with rinsing cup of hot water <br><br> Use the <a href="/Numbers" id="num-link" target="_blank">numbers</a> tool in to generate placeholders for your coffee's name <br><br> This will help keep the cupping 'blind' and remove  preconceived notions of what each coffee could/would/should taste like</p>
+                    <p id="setupdetail">Space out the each set of cups with rinsing cup of hot water <br><br> Use the <a href="/Resources" id="num-link" target="_blank">numbers</a> tool in to generate placeholders for your coffee's name <br><br> This will help keep the cupping 'blind' and remove  preconceived notions of what each coffee could/would/should taste like</p>
               </div>
               <div class="steps">
                 <h3 id="steps">Step 5: <br> Assess the color and aroma of the dry coffee</h3>
