@@ -279,6 +279,11 @@ body::-webkit-scrollbar-thumb {
     height: auto;
     padding: 2px;
   }
+  #step910-img {
+    padding: 5px;
+    max-width: 300px;
+    height: auto;
+  }
   #step-img {
     display: flex;
     flex-direction: row;
@@ -301,7 +306,7 @@ body::-webkit-scrollbar-thumb {
   /* resourses */
   .numbers {
     /* margin: none; */
-    padding: 200px 200px 500px 200px;
+    padding: 200px 50px 10px 50px;
     /* border: none; */
     font-size: 1rem;
     text-align: center;
@@ -334,8 +339,7 @@ body::-webkit-scrollbar-thumb {
     transition-duration: 0.2s;
   }
   .num-display {
-    width: 100%;
-    margin: 10px 10px;
+    margin: 25px 100px 100px 100px;
     justify-content: center;
     align-content: center;
     text-align: center;
@@ -359,9 +363,6 @@ body::-webkit-scrollbar-thumb {
     align-content: center;
   }
   #tasting-wheel {
-    width: 100%;
-    height: auto;
-    /* border: 1px solid black; */
     box-shadow: 2px 2px 2px rgb(148, 184, 174);
   }
   .cupping-form {
@@ -371,9 +372,6 @@ body::-webkit-scrollbar-thumb {
     align-content: center;
   }
   #cupping-form {
-    width: 100%;
-    height: auto;
-    /* border: 1px solid black; */
     box-shadow: 2px 2px 2px rgb(148, 184, 174);
   }
 
@@ -429,7 +427,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 3rem;
     font-weight: 200;
     font-style: italic;
-    padding-left: 20px;
+    padding-right: 20px;
     text-decoration: none;
     float: right;
   }
@@ -554,13 +552,13 @@ body::-webkit-scrollbar-thumb {
     padding: 0.5rem;
   }
   #steps {
-    font-size: 0.9rem;
+    font-size: 1.25rem;
     font-weight: 200;
     text-align: center;
   }
   #setupdetail {
     font-weight: 100;
-    font-size: 0.7rem;
+    font-size: 1rem;
     text-align: center;
   }
 
@@ -571,8 +569,8 @@ body::-webkit-scrollbar-thumb {
     text-align: center;
   }
   #step1-img {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 300px;
+    max-height: 300px;
     padding: 2.5px;
   }
   #step4-img {
@@ -621,8 +619,7 @@ body::-webkit-scrollbar-thumb {
     border-radius: 50px;
   }
   .num-display {
-    width: 95%;
-    margin: 10px;
+    margin: 0px 50px 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -647,9 +644,9 @@ body::-webkit-scrollbar-thumb {
     align-content: center;
   }
   #tasting-wheel {
-    width: 100%;
+    max-width: 100%;
+    height: auto
     overflow: hidden;
-    height: auto;
     box-shadow: 2px 2px 2px rgb(148, 184, 174);
   }
   .cupping-form {
@@ -660,9 +657,9 @@ body::-webkit-scrollbar-thumb {
     align-content: center;
   }
   #cupping-form {
-    width: 100%;
-    overflow: hidden;
+    max-width: 100%;
     height: auto;
+    overflow: hidden;
     box-shadow: 2px 2px 2px rgb(148, 184, 174);
   }
 
