@@ -1,10 +1,12 @@
 export default () => `
 <header>
 <nav class="nav" id="nav">
-  <a class="logo" href="/Home">Cupp.</a>
-  <span class="hamburger" id="hamburger">
+  <div class="top-nav">
+  <a id="logo" href=".home-top">Cupp.</a>
+  <div class="hamburger" id="hamburger">
     <i class="fa fa-bars"></i>
-  </span>
+  </div>
+  </div>
   <ul class="" id="hidden--mobile">
     <li><a class="nav-link" href="/Home" title="Home" data-navigo="">HOME</a></li>
     <li><a class="nav-link" href="/Gettingstarted" title="Gettingstarted" data-navigo="">GET STARTED</a></li>
