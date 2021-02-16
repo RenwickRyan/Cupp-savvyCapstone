@@ -2,7 +2,7 @@ export default () => `
 <header>
 <nav class="nav" id="nav">
   <div class="top-nav">
-  <a id="logo" href=".home-top">Cupp.</a>
+  <a id="logo" href="/Home">Cupp.</a>
   <div class="hamburger" id="hamburger">
     <i class="fa fa-bars"></i>
   </div>
@@ -14,7 +14,3 @@ export default () => `
   </ul>
 </nav>
 </header>`;
-
-{
-  /* <li><a class="nav-link" href="/Numbers" title="Numbers" data-navigo="">NUMBERS</a></li> */
-}
