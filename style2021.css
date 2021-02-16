@@ -575,7 +575,7 @@ body::-webkit-scrollbar-thumb {
   }
   #step4-img {
     max-width: 300px;
-    height: auto;
+    height: 200px;
     padding: 5px;
   }
   #step910-img {
@@ -645,7 +645,7 @@ body::-webkit-scrollbar-thumb {
   }
   #tasting-wheel {
     max-width: 100%;
-    height: auto;
+    height: 300px;
     overflow: hidden;
     box-shadow: 2px 2px 2px rgb(148, 184, 174);
   }
@@ -658,7 +658,7 @@ body::-webkit-scrollbar-thumb {
   }
   #cupping-form {
     max-width: 100%;
-    height: auto;
+    height: 300px;
     overflow: hidden;
     box-shadow: 2px 2px 2px rgb(148, 184, 174);
   }
