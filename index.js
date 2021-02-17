@@ -46,8 +46,15 @@ function render(st = state.Home) {
 `;
   router.updatePageLinks();
 
-  // addPicOnFormSubmit(st);
-  // addNavEventListeners();
+  /* nav bar toggle */
+  function addNavTrigger() {
+    const hamburger = document.getElementById("hamburger");
+    const navUL = document.getElementById("hidden--mobile");
+    hamburger.addEventListener("click", () => {
+      navUL.classList.toggle("show");
+    });
+  }
+  addNavTrigger();
 }
 
 render(state.Home);
@@ -58,14 +65,6 @@ router
     ":page": params => render(state[capitalize(params.page)])
   })
   .resolve();
-
-/* nav bar toggle */
-const hamburger = document.getElementById("hamburger");
-const navUL = document.getElementById("hidden--mobile");
-
-hamburger.addEventListener("click", () => {
-  navUL.classList.toggle("show");
-});
 
 /* number generator */
 function getRandomNumber1(max, min) {
