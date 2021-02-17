@@ -67,82 +67,17 @@ router
   .resolve();
 
 /* number generator */
-function getRandomNumber1(max, min) {
-  return Math.floor(Math.random() * (999 - 100) + 100);
-}
-function getRandomNumber2(max, min) {
-  return Math.floor(Math.random() * (999 - 100) + 100);
-}
-function getRandomNumber3(max, min) {
-  return Math.floor(Math.random() * (999 - 100) + 100);
-}
-function getRandomNumber4(max, min) {
-  return Math.floor(Math.random() * (999 - 100) + 100);
-}
-function getRandomNumber5(max, min) {
-  return Math.floor(Math.random() * (999 - 100) + 100);
-}
-function getRandomNumber6(max, min) {
-  return Math.floor(Math.random() * (999 - 100) + 100);
-}
-function getRandomNumber7(max, min) {
-  return Math.floor(Math.random() * (999 - 100) + 100);
-}
-function getRandomNumber8(max, min) {
-  return Math.floor(Math.random() * (999 - 100) + 100);
-}
-function getRandomNumber9(max, min) {
-  return Math.floor(Math.random() * (999 - 100) + 100);
-}
-function getRandomNumber10(max, min) {
+function getRandomNumber(max, min) {
   return Math.floor(Math.random() * (999 - 100) + 100);
 }
 
-document.getElementById("num-1").innerHTML = getRandomNumber1();
-document.getElementById("num-2").innerHTML = getRandomNumber2();
-document.getElementById("num-3").innerHTML = getRandomNumber3();
-document.getElementById("num-4").innerHTML = getRandomNumber4();
-document.getElementById("num-5").innerHTML = getRandomNumber5();
-document.getElementById("num-6").innerHTML = getRandomNumber6();
-document.getElementById("num-7").innerHTML = getRandomNumber7();
-document.getElementById("num-8").innerHTML = getRandomNumber8();
-document.getElementById("num-9").innerHTML = getRandomNumber9();
-document.getElementById("num-10").innerHTML = getRandomNumber10();
-
-/* apple live photo API */
-
-// const player = LivePhotosKit.Player(document.getElementById("live-photo"));
-// player.photoSrc =
-//   "https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/breakingcrust-detail.jpeg?raw=true";
-// player.videoSrc =
-//   "https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/IMG_1850.mov?raw=true";
-
-// player.addEventListener("canplay", evt => console.log("player ready", evt));
-// player.addEventListener("error", evt => console.log("player load error", evt));
-// player.addEventListener("ended", evt =>
-//   console.log("player finished playing through", evt)
-// );
-
-// player.playbackStyle = LivePhotosKit.PlaybackStyle.HINT;
-// player.playbackStyle = LivePhotosKit.PlaybackStyle.FULL;
-// player.play();
-// player.pause();
-// player.toggle();
-// player.stop();
-
-// player.currentTime = 0.25 * player.duration;
-
-// player.currentTime = 0.1;
-
-// player.addEventListener("error", ev => {
-//   if (typeof ev.detail.errorCode === "number") {
-//     switch (ev.detail.errorCode) {
-//       case LivePhotosKit.Errors.IMAGE_FAILED_TO_LOAD:
-//         break;
-//       case LivePhotosKit.Errors.VIDEO_FAILED_TO_LOAD:
-//         break;
-//     }
-//   } else {
-//     console.error(ev.detail.error);
-//   }
-// });
+document.getElementById("num-1").innerHTML = getRandomNumber();
+document.getElementById("num-2").innerHTML = getRandomNumber();
+document.getElementById("num-3").innerHTML = getRandomNumber();
+document.getElementById("num-4").innerHTML = getRandomNumber();
+document.getElementById("num-5").innerHTML = getRandomNumber();
+document.getElementById("num-6").innerHTML = getRandomNumber();
+document.getElementById("num-7").innerHTML = getRandomNumber();
+document.getElementById("num-8").innerHTML = getRandomNumber();
+document.getElementById("num-9").innerHTML = getRandomNumber();
+document.getElementById("num-10").innerHTML = getRandomNumber();
