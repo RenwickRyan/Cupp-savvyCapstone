@@ -93,7 +93,7 @@ export default st => `
               </div>
 
               <div class="steps">
-              <h2 class="step-num">Step 1</h2>
+              <h2 class="step-num">Step 9</h2>
                 <h3 id="steps">Using two spoons, remove any remaining coffee grounds or foam floating at the top.</h3>
                 <p id="setupdetail">You can use a extra mug to dispense of those</p>
                     <div class="step-img-div">
