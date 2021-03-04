@@ -18,9 +18,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (min-width: 780px) {
-
-/* nav & header */
-
+  /* nav & header */
   header {
     background-color: rgb(250, 250, 250);
     font-size: 1.5rem;
@@ -101,7 +99,6 @@ body::-webkit-scrollbar-thumb {
     padding: 10px;
   }
 
-
   .home-about {
     flex: 1;
     max-width: 40%;
@@ -112,7 +109,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 2.5rem;
   }
   #about {
-    font-size: 1.5rem;
+    font-size: 1rem;
     transition-duration: 1s;
   }
 
@@ -145,11 +142,6 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     justify-content: center;
   }
-  /* #fieldset {
-    margin: 0 0 10px;
-    padding: 0;
-    width: 100%;
-  } */
   fieldset {
     margin: 0 0 10px;
     padding: 0;
@@ -165,6 +157,9 @@ body::-webkit-scrollbar-thumb {
     background: #FFF;
     padding: 20px;
   }
+  #contact textarea {
+    resize: none;
+  }
   #contact input[type="text"]:hover,
   #contact input[type="email"]:hover,
   #contact textarea:hover {
@@ -172,9 +167,6 @@ body::-webkit-scrollbar-thumb {
     -moz-transition: border-color 0.3s ease-in-out;
     transition: border-color 0.3s ease-in-out;
     border: 1px solid #aaa;
-  }
-  #contact textarea {
-    resize: none;
   }
   #contact button[type="submit"] {
     cursor: pointer;
@@ -228,25 +220,40 @@ body::-webkit-scrollbar-thumb {
     list-style-type: square;
   }
   #materials-needed {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 100;
-    text-transform: uppercase;
-    margin: 20px;
+    /* text-transform: uppercase; */
+    margin-top: 20px;
+    margin-bottom: 5px;
   }
   #material-links {
     color: rgb(148, 184, 174);
     font-family: inherit;
+    font-size: 1.5rem;
     text-decoration: none;
+    margin-top: 5px;
   }
   #material-links:hover {
     color: rgb(238, 183, 183);
   }
+
+  .step-num {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(238, 183, 183)
+  }
   .steps {
-    /* border: 1px solid black; */
-    margin: 50px 0px;
+    /* border: 1px solid black;
+    border-radius: 15px; */
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 25%;
+    max-width: 50%;
+    text-align: center;
   }
   #steps {
-    font-size: 1.75rem;
+    font-size: 1.25rem;
     font-weight: 100;
     text-align: center;
   }
@@ -273,7 +280,7 @@ body::-webkit-scrollbar-thumb {
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    max-width: 15%;
+    max-width: 25%;
     height: auto;
     padding: 2px;
   }
@@ -282,7 +289,7 @@ body::-webkit-scrollbar-thumb {
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    max-width: 50%;
+    max-width: 75%;
     height: auto;
     padding: 2px;
   }
@@ -296,7 +303,7 @@ body::-webkit-scrollbar-thumb {
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    max-width: 25%;
+    max-width: 30%;
     height: auto;
     padding: 2px;
   }
@@ -382,6 +389,20 @@ body::-webkit-scrollbar-thumb {
     box-shadow: 2px 2px 2px rgb(148, 184, 174);
   }
 
+  /* About Me */
+
+  .about-page {
+    padding: 200px 50px;
+  }
+  .me-link {
+    color: rgb(148, 184, 174);
+    text-decoration: none;
+  }
+  .me-link:hover {
+    color: rgb(238, 183, 183);
+
+  }
+
 
   /* footer */
   footer {
@@ -424,7 +445,6 @@ body::-webkit-scrollbar-thumb {
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 
   /* header & nav */
-
   nav {
     background-color: rgb(148, 184, 174);
     display: flex;
@@ -456,7 +476,7 @@ body::-webkit-scrollbar-thumb {
     flex-direction: column;
     align-content: center;
     padding: 10px;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   #hamburger {
     padding-right: 10px;
@@ -591,7 +611,7 @@ body::-webkit-scrollbar-thumb {
     font-weight: 400;
   }
   #material-links {
-    color: rgb(238, 183, 183);
+    color: black;
     text-decoration: none;
     font-weight: 600;
   }
@@ -676,6 +696,12 @@ body::-webkit-scrollbar-thumb {
     justify-content: center;
     align-content: center;
   }
+  #num-9 {
+    display: none;
+  }
+  #num-10 {
+    display: none;
+  }
   p.num {
     color: rgb(250, 250, 250);
     background-color: rgb(148, 184, 174);
@@ -698,7 +724,7 @@ body::-webkit-scrollbar-thumb {
     max-width: 100%;
     height: 300px;
     overflow: hidden;
-    box-shadow: 2px 2px 2px rgb(148, 184, 174);
+    box-shadow: 2px 2px 2px 2px rgb(148, 184, 174);
   }
   .cupping-form {
     max-width: 100%;
@@ -711,9 +737,6 @@ body::-webkit-scrollbar-thumb {
     max-width: 100%;
     height: 300px;
     overflow: hidden;
-    box-shadow: 2px 2px 2px rgb(148, 184, 174);
+    box-shadow: 2px 2px 2px 2px rgb(148, 184, 174);
   }
-
-
-
 }

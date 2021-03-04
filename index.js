@@ -9,32 +9,6 @@ import { Header, Nav, Main, Footer } from "./Components";
 // add menu toggle to bars icon in nav bar
 import "./env";
 
-/* API STUFF */
-
-// // get data from an API endpoint
-// axios
-//   .get("https://jsonplaceholder.typicode.com/posts")
-//   // handle the response from the API
-//   .then(response => {
-//     // for each post in the response Array,
-//     response.data.forEach(post => {
-//       // add it to state.Blog.posts
-//       state.Blog.posts.push(post);
-//     });
-//     const params = router.lastRouteResolved().params;
-//     if (params) {
-//       render(state[params.page]);
-//     }
-//   });
-
-// axios
-//   .get(`https://api.github.com/users/RenwickRyan/repos`, {
-//     headers: {
-//       Authorization: `token 871eba93e02dfc55166e9757a11633c4b985f3b9`
-//     }
-//   })
-//   .then(response => console.log(response.data));
-
 const router = new Navigo(window.location.origin);
 
 function render(st = state.Home) {

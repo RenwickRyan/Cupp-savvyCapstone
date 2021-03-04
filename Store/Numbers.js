@@ -1,4 +1,4 @@
-export default {
-  header: "Numbers",
-  view: "Numbers"
-};
+// export default {
+//   header: "Numbers",
+//   view: "Numbers"
+// };

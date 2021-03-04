@@ -5,6 +5,7 @@ export default () => `
         <h3 id="num-text">Below is some numbers you can use as placeholders for the names of the coffee you are use to keep your cupping 'blind'.</h3>
     </div>
     <div class="num-display">
+
       <p class="num" id="num-1"></p>
       <p class="num" id="num-2"></p>
       <p class="num" id="num-3"></p>
@@ -12,7 +13,8 @@ export default () => `
       <p class="num" id="num-5"></p>
       <p class="num" id="num-6"></p>
       <p class="num" id="num-7"></p>
-      <p class="num" id="num-8"></p>        <p class="num" id="num-9"></p>
+      <p class="num" id="num-8"></p>
+      <p class="num" id="num-9"></p>
       <p class="num" id="num-10"></p>
     </div>
   <div class="tasting-wheel">
