@@ -8,8 +8,8 @@ export default () => `
   </div>
   </div>
   <ul class="" id="hidden--mobile">
-    <li><a class="nav-link" href="/Home" title="Home" data-navigo="">HOME</a></li>
-    <li><a class="nav-link" href="/Gettingstarted" title="Gettingstarted" data-navigo="">GET STARTED</a></li>
+    <li><a class="nav-link" href="/Home" title="Home" data-navigo="">ABOUT</a></li>
+    <li><a class="nav-link" href="/Gettingstarted" title="Gettingstarted" data-navigo="">CUPPING</a></li>
     <li><a class="nav-link" href="/Resources" title="Resources" data-navigo="">RESOURCES</a></li>
   </ul>
 </nav>
