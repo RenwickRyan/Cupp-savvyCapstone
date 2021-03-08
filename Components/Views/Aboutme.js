@@ -1,5 +1,8 @@
 export default st => `
 <main class="about-page">
+<div class="aboutme">
+<img class="aboutme-img" src="https://github.com/RenwickRyan/Cupp-forcoffeeexplorers/blob/master/Photos/aboutpage-me2.jpeg?raw=true">
+</div>
 <p> Hello, my name is Ryan Renwick and I am a web developer. </p>
 <p>Follow the icons below to check out my LinkedIn, Github and Trello pages. </p>
 <br>

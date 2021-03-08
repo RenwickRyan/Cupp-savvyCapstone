@@ -21,16 +21,14 @@ export default st => `
     </div>
     <div class="form-container">
       <form id="contact" action="https://formspree.io/f/xbjpjapz" method="post">
-        <h3 id="contact-cupp">Contact Cupp.</h3>
+        <h3 id="contact-cupp">Sign up for the newsletter<br>for updates on this project.</h3>
           <fieldset id="fieldset">
             <input placeholder="your name" type="text"  name="name" required autofocus>
           </fieldset>
           <fieldset id="fieldset">
             <input placeholder="your email address" type="email" name="replyto" required>
           </fieldset>
-          <fieldset id="fieldset">
-            <textarea placeholder="type your message here...." type="text" name="message" required></textarea>
-          </fieldset>
+
           <fieldset id="contact-btn" id="fieldset">
             <button name="submit" type="submit" >Submit</button>
           </fieldset>
