@@ -133,10 +133,14 @@ body::-webkit-scrollbar-thumb {
   #contact h3 {
     text-align: center;
     color: rgb(148, 184, 174);
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 200;
     font-family: 'Montserrat', sans-serif, serif;
   }
+  #contact-cupp {
+    font-size: 1rem;
+  }
+
   #contact-btn {
     border: none;
     display: flex;
@@ -394,13 +398,23 @@ body::-webkit-scrollbar-thumb {
   .about-page {
     padding: 200px 50px;
   }
+  .aboutme {
+    display: flex;
+  }
+  .aboutme-img {
+    max-width: 25%;
+    height: auto;
+  }
+  .aboutme-img:hover {
+    transform: rotate(360deg);
+    transition-duration: 3s;
+  }
   .me-link {
     color: rgb(148, 184, 174);
     text-decoration: none;
   }
   .me-link:hover {
     color: rgb(238, 183, 183);
-
   }
 
 
@@ -585,7 +599,7 @@ body::-webkit-scrollbar-thumb {
   #contact-cupp {
     color: rgb(250, 250, 250);
     margin: 20px;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 400;
     text-align: center;
   }
@@ -626,6 +640,9 @@ body::-webkit-scrollbar-thumb {
     font-size: 1.25rem;
     font-weight: 200;
     text-align: center;
+  }
+  .step-num {
+    color :rgb(238, 183, 183);
   }
   #setupdetail {
     font-weight: 100;
