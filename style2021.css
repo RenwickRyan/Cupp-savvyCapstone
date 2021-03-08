@@ -125,7 +125,7 @@ body::-webkit-scrollbar-thumb {
     flex-direction: column;
     background: #F9F9F9;
     width: 100%;
-    height: 500px;
+    height: 350px;
     margin-top: 50px;
     padding: 25px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
@@ -268,39 +268,41 @@ body::-webkit-scrollbar-thumb {
   }
   #step1imgs {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: center;
   }
+
+  #step1-img {
+    max-width: 25%;
+    max-height: 150px;
+    padding: 2px;
+  }
+
   .step-img-div {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
   }
-  #step1-img {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    max-width: 25%;
-    height: auto;
-    padding: 2px;
-  }
+
   #step4-img {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
     max-width: 75%;
-    height: auto;
+    max-height: 200px;
     padding: 2px;
+  }
+  #step678-img {
+    padding: 5px;
+    max-width: 300px;
+    max-height: 300px;
   }
   #step910-img {
     padding: 5px;
     max-width: 300px;
-    height: auto;
+    max-height: 300px;
   }
   #step-img {
     display: flex;
@@ -308,7 +310,7 @@ body::-webkit-scrollbar-thumb {
     justify-content: center;
     align-content: center;
     max-width: 30%;
-    height: auto;
+    max-height: 200px;
     padding: 2px;
   }
   #back2top {

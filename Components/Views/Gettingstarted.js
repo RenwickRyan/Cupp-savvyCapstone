@@ -70,7 +70,7 @@ export default st => `
                 <h3 id="steps">Start timer and wet your coffee</h3>
                 <p id="setupdetail">You want to use water at a temperature just below boiling. (198°F-208°F)  <br> <br> Be sure to fully saturate the coffee in the bowl and fill near the top</p>
                     <div class="step-img-div">
-                      <img id="step-img" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/sml-pouring.jpeg?raw=true">
+                      <img id="step678-img" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/sml-pouring.jpeg?raw=true">
                     </div>
               </div>
 
@@ -79,7 +79,7 @@ export default st => `
                 <h3 id="steps">Assess the aroma of the wet coffee</h3>
                 <p id="setupdetail">Take note of any differences or new smells from the dry coffee.</p>
                     <div class="step-img-div">
-                      <img id="step-img" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/sml-wet.jpeg?raw=true">
+                      <img id="step678-img" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/sml-wet.jpeg?raw=true">
                     </div>
               </div>
 
@@ -88,7 +88,7 @@ export default st => `
                 <h3 id="steps">At the 4 minute mark, break the crust</h3>
                 <p id="setupdetail">Get in close to the bowl, then using a spoon <br> push the coffee around slowly front to back <br> <br> * Be sure to rinse your spoon in hot water between each bowl * </p>
                   <div class="step-img-div">
-                      <img id="step-img" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/sml-break.jpeg?raw=true">
+                      <img id="step678-img" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/sml-break.jpeg?raw=true">
                     </div>
               </div>
 
@@ -106,7 +106,7 @@ export default st => `
               <h2 class="step-num">Step 10</h2>
                 <h3 id="steps">Allow the coffee to cool until the 12-15 minute mark, then begin tasting. <br> Get a small amount of the coffee in your spoon, then SLURP!</h3>
                   <p id="setupdetail"> * be sure to rinse your spoon in hot water between cups *</p>
-                  <p id="setupdetail">Slurping the coffee allows it to spray across your entire palate, letting you taste a wider range of flavors <br><br>The coffee's flavor will evolve as the coffee cools <br> Take note of those changes in coffee<br><br> Allow for several passes over 15 minutes or so </p>
+                  <p id="setupdetail">Slurping the coffee allows it to spray across your entire palate, letting you taste a wider range of flavors. The coffee's flavor will evolve as the coffee cools.Take note of those changes in coffee. Allow for several passes over 15 minutes or so.</p>
                       <div class="step-img-div">
                       <img id="step910-img" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/sml-slurp1.jpeg?raw=true">
                       <img id="step910-img" src="https://github.com/RenwickRyan/Cupp---Savvy-Capstone/blob/master/Photos/sml-slurp2.jpeg?raw=true">
