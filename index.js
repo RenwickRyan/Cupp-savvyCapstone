@@ -10,6 +10,7 @@ import { Header, Nav, Main, Footer } from "./Components";
 import "./env";
 
 const router = new Navigo(window.location.origin);
+router.updatePageLinks();
 
 function render(st = state.Home) {
   document.querySelector("#root").innerHTML = `
@@ -18,8 +19,6 @@ function render(st = state.Home) {
   ${Main(st)}
   ${Footer()}
 `;
-  router.updatePageLinks();
-
   /* nav bar toggle */
   function addNavTrigger() {
     const hamburger = document.getElementById("hamburger");

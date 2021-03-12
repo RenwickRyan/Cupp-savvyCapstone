@@ -3,6 +3,7 @@ export default st => `
   <div class="home-top">
   <img class="home-img" src="https://github.com/RenwickRyan/Cupp-forcoffeeexplorers/blob/master/Photos/machine&me.JPEG?raw=true">
   </div>
+
   <div class="home-container">
     <div class="home-about">
       <h1 class="about">About.</h1>
@@ -19,6 +20,7 @@ export default st => `
           <li> user accounts that will provide the ability to communicate with fellow users, as well as keep track of there past cuppings</li>
         </ul>
     </div>
+
     <div class="form-container">
       <form id="contact" action="https://formspree.io/f/xbjpjapz" method="post">
         <h3 id="contact-cupp">Sign up for the newsletter<br>for updates on this project.</h3>
@@ -34,6 +36,7 @@ export default st => `
           </fieldset>
       </form>
     </div>
+
   </div>
   <img class="home-img" src="https://github.com/RenwickRyan/Cupp-forcoffeeexplorers/blob/master/Photos/closeup.JPEG?raw=true">
 </div>
